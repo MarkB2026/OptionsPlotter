@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 92" role="img" aria-labelledby="title">
+<title id="title">Options Plotter</title>
+<defs><linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#83e5ff"/><stop offset="1" stop-color="#078df5"/></linearGradient></defs>
+<g transform="translate(5 9)" fill="none" stroke="url(#cyan)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M63 18 A30 30 0 1 0 64 58" opacity=".95"/><path d="M15 48 L27 37 L38 49 L54 25 L68 16"/><path d="M56 16 H68 V28"/>
+</g>
+<g transform="translate(5 9)" stroke-width="2"><path d="M23 57V47 M32 60V40 M41 56V44" stroke="#d9f6ff"/><path d="M23 50v5 M32 44v9 M41 46v6" stroke="#35c9ff" stroke-width="5"/></g>
+<text x="94" y="42" font-family="Arial,Helvetica,sans-serif" font-size="31" font-weight="900" letter-spacing=".6" fill="#f2f7ff">OPTIONS</text>
+<text x="94" y="73" font-family="Arial,Helvetica,sans-serif" font-size="31" font-weight="900" letter-spacing="1.4" fill="url(#cyan)">PLOTTER</text>
+</svg>
