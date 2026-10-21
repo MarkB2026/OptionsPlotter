@@ -1,38 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 850 255" role="img" aria-labelledby="title desc">
-<title id="title">Options Plotter</title><desc id="desc">Silver magnifying glass with three blue candles and a rising arrow, beside stacked silver OPTIONS and electric blue PLOTTER lettering.</desc>
-<defs>
- <linearGradient id="metal" x1="0" y1="0" x2=".3" y2="1"><stop stop-color="#fff"/><stop offset=".26" stop-color="#b9d0e4"/><stop offset=".48" stop-color="#f6fbff"/><stop offset=".73" stop-color="#6888a4"/><stop offset="1" stop-color="#e7f4ff"/></linearGradient>
- <linearGradient id="silverText" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff"/><stop offset=".44" stop-color="#edf5ff"/><stop offset=".55" stop-color="#a3bed5"/><stop offset="1" stop-color="#718fa9"/></linearGradient>
- <linearGradient id="cyanText" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#62faff"/><stop offset=".47" stop-color="#0fcfff"/><stop offset="1" stop-color="#0783f7"/></linearGradient>
- <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#123c61"/><stop offset=".55" stop-color="#05162a"/><stop offset="1" stop-color="#071326"/></linearGradient>
- <linearGradient id="handle" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e6f7ff"/><stop offset=".23" stop-color="#6f96b5"/><stop offset=".5" stop-color="#25466d"/><stop offset=".76" stop-color="#94b8d3"/><stop offset="1" stop-color="#122c50"/></linearGradient>
- <linearGradient id="bars" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#067bd5"/><stop offset="1" stop-color="#37edff"/></linearGradient>
- <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="3"/></filter>
-</defs>
-<!-- Lens and handle, intentionally visually distinct from the Wheel Tracker icon -->
-<g transform="translate(0 0)">
- <path d="M66 178 L20 220 Q12 227 19 237 L28 245 Q37 251 45 244 L92 196" fill="url(#handle)" stroke="#a5c9e4" stroke-width="4"/>
- <path d="M28 231 L77 187" fill="none" stroke="#d9f7ff" stroke-opacity=".65" stroke-width="3"/>
- <circle cx="135" cy="112" r="93" fill="url(#glass)" stroke="#365d81" stroke-width="13"/>
- <circle cx="135" cy="112" r="98" fill="none" stroke="url(#metal)" stroke-width="9"/>
- <circle cx="135" cy="112" r="85" fill="none" stroke="#21aefa" stroke-width="2.5" opacity=".75"/>
- <path d="M64 74 Q92 32 148 32" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="6" stroke-linecap="round"/>
- <!-- Three enlarged candlesticks -->
- <g fill="url(#bars)" stroke="#54eaff" stroke-width="2">
- <path d="M82 125 v-24 M82 159 v-12" fill="none" stroke-width="4"/>
- <rect x="71" y="111" width="22" height="37" rx="1"/>
- <path d="M119 91 v-21 M119 142 v-15" fill="none" stroke-width="4"/>
- <rect x="108" y="83" width="22" height="47" rx="1"/>
- <path d="M155 66 v-19 M155 111 v-15" fill="none" stroke-width="4"/>
- <rect x="144" y="60" width="22" height="42" rx="1"/>
- </g>
- <path d="M66 173 L100 148 L123 158 L151 120 L177 133 L206 83" fill="none" stroke="#10dfff" stroke-width="9" stroke-linejoin="round" stroke-linecap="round" opacity=".4" filter="url(#glow)"/>
- <path d="M66 173 L100 148 L123 158 L151 120 L177 133 L206 83" fill="none" stroke="#16dfff" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
- <path d="M187 84 L214 70 L209 101 Z" fill="#20eaff"/>
-</g>
-<!-- Compact wordmark optimized for top-left site navigation -->
-<g font-family="Arial, Helvetica, sans-serif" font-weight="600" letter-spacing="2">
- <text x="248" y="116" font-size="81" textLength="580" lengthAdjust="spacingAndGlyphs" fill="url(#silverText)" stroke="#d2e8f8" stroke-opacity=".12" stroke-width=".4">OPTIONS</text>
- <text x="248" y="202" font-size="83" textLength="580" lengthAdjust="spacingAndGlyphs" fill="url(#cyanText)" stroke="#38e5ff" stroke-opacity=".12" stroke-width=".4">PLOTTER</text>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 84" role="img" aria-labelledby="t d">
+<title id="t">Options Plotter</title><desc id="d">Magnifying glass containing three blue candlesticks beside Options Plotter lettering</desc>
+<defs><linearGradient id="silver" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f8fbff"/><stop offset="1" stop-color="#b5cadc"/></linearGradient><linearGradient id="cyan" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#66d9ff"/><stop offset="1" stop-color="#119fff"/></linearGradient></defs>
+<circle cx="47" cy="35" r="27" fill="none" stroke="url(#silver)" stroke-width="4.5"/>
+<path d="M27 56 L12 72" stroke="url(#silver)" stroke-width="7" stroke-linecap="round"/>
+<path d="M32 42V25 M42 48V19 M52 41V23" stroke="#6ddcff" stroke-width="2" stroke-linecap="round"/>
+<rect x="28" y="32" width="8" height="12" rx="1" fill="#18b7ff"/><rect x="38" y="26" width="8" height="17" rx="1" fill="#42d4ff"/><rect x="48" y="29" width="8" height="10" rx="1" fill="#129aff"/>
+<path d="M25 51L39 44L49 47L64 29" fill="none" stroke="#56d5ff" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M57 29H64V36" fill="none" stroke="#56d5ff" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="85" y="37" fill="url(#silver)" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="600" letter-spacing="1.2">OPTIONS</text>
+<text x="85" y="69" fill="url(#cyan)" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="600" letter-spacing="1.5">PLOTTER</text>
 </svg>
