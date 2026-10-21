@@ -1,0 +1,1 @@
+Upload index.html, CNAME, and the entire assets folder to the ROOT of your public GitHub Pages repository. Enable Pages: main / root. Set custom domain optionsplotter.com. IMPORTANT: replace the private GitHub installer URL in index.html with the public release download URL when ready. The embedded simulation is illustrative, not a live software recording.
