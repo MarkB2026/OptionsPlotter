@@ -1,19 +1,16 @@
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="robots" content="noindex, nofollow">
-  <title>Downloading Options Plotter...</title>
-  <meta http-equiv="refresh" content="0;url=https://github.com/MarkB2026/TraderRepository-Downloads/releases/download/optionsplotter-basic-v1.0.0/OptionsPlotter_Basic_Beta_v1.0.0.exe">
-</head>
-<body>
-  <p>Starting your Options Plotter download...</p>
-  <p><a id="downloadLink" href="https://github.com/MarkB2026/TraderRepository-Downloads/releases/download/optionsplotter-basic-v1.0.0/OptionsPlotter_Basic_Beta_v1.0.0.exe">Click here if your download does not start.</a></p>
-  <script>
-    window.location.replace(
-      document.getElementById("downloadLink").href
-    );
-  </script>
-</body>
-</html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Downloading Options Plotter...</title></head>
+<body><p id="status">Starting your Options Plotter download...</p><p><a id="downloadLink" href="https://github.com/MarkB2026/TraderRepository-Downloads/releases/download/optionsplotter-basic-v1.0.0/OptionsPlotter_Basic_Beta_v1.0.0.exe">Click here if your download does not start.</a></p>
+<script>
+(function(){
+  const basic='https://github.com/MarkB2026/TraderRepository-Downloads/releases/download/optionsplotter-basic-v1.0.0/OptionsPlotter_Basic_Beta_v1.0.0.exe';
+  const premium='https://github.com/MarkB2026/TraderRepository-Downloads/releases/download/optionsplotter-premium-v1.0.0/OptionsPlotter_Premium_Beta_v1.0.0.exe';
+  const edition=new URLSearchParams(window.location.search).get('edition');
+  const isPremium=edition&&edition.toLowerCase()==='premium';
+  const target=isPremium?premium:basic;
+  document.title='Downloading Options Plotter '+(isPremium?'Premium':'Basic')+'...';
+  document.getElementById('status').textContent='Starting your Options Plotter '+(isPremium?'Premium':'Basic')+' download...';
+  document.getElementById('downloadLink').href=target;
+  window.location.replace(target);
+})();
+</script></body></html>
